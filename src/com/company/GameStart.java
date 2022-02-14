@@ -37,7 +37,7 @@ public class GameStart {
                         choisir la deficulté :
                         1. Facile : 4 niveaux
                         2. Difficile : 8 niveaux
-                        3. Impossible : 18 niveaux
+                        3. Impossible : 16 niveaux
                         ***************************
                         """);
 
