@@ -27,7 +27,7 @@ public class GameStart {
 
     //chooseDifficulty
     private void chooseDifficulty(Scanner scanner) {
-        int level;
+        int level=0;
 
         while (true) {
 
@@ -36,7 +36,7 @@ public class GameStart {
                         **************************
                         choisir la deficulté :
                         1. Facile : 4 niveaux
-                        2. Difficile : 12 niveaux
+                        2. Difficile : 8 niveaux
                         3. Impossible : 18 niveaux
                         ***************************
                         """);
@@ -51,10 +51,13 @@ public class GameStart {
                             difficulty(4);
                             break;
                         case 2:
-                            difficulty(12);
+                            difficulty(8);
+
                             break;
                         case 3:
-                            difficulty(18);
+                            difficulty(8);
+                            difficulty(8);
+
                             break;
                     }
                 } else {

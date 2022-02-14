@@ -57,7 +57,7 @@ public class GameFight {
                         } else if (casB) {
                             heroFigher.setMarbles(a.getMarbles());
                             System.out.print("Gagner *** bonus ***  :  \n" + a.getMarbles() + "\n");
-                            System.out.print("Gagner *** votre Marble ***  :  \n" + heroFigher.getMarbles() + "\n");
+                            System.out.print(" *** votre Marble ***  :  \n" + heroFigher.getMarbles() + "\n");
                         } else if (casC) {
                             System.out.print("perdu !!!!!! Malus !!!!!!");
                             heroFigher.setMarbles(a.getMarbles());
@@ -65,7 +65,7 @@ public class GameFight {
                             System.out.print("perdu !!!!!! Malus !!!!!!");
                             heroFigher.setMarbles(a.getMarbles());
                         } else {
-                            System.out.println("no no valid number choose good number !!!!!!!");
+                            System.out.println("no valid number choose good number !!!!!!!");
 
                         }
                     }
