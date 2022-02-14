@@ -9,7 +9,5 @@ public class Main {
 
         GameStart s = new GameStart();
 
-
-
     }
 }

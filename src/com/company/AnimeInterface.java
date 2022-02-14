@@ -4,9 +4,6 @@ public interface AnimeInterface {
     String nameAnime = "";
 
 
-
-
-
 }
 /*//(int)random()*10;
     public void listAnimes(){

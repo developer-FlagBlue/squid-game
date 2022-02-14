@@ -71,11 +71,9 @@ public class GameStart {
 
     // difficulty&& choose anime
     private void difficulty(int dificult) {
-
         AnimesList anime = new AnimesList();
         int i = 0;
         do {
-
             int randomAnime = (int) (java.lang.Math.random() * 10);
             randomAnime += randomAnime;
             if (randomAnime < 18 && randomAnime > 0) {

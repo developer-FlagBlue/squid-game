@@ -33,7 +33,6 @@ public class Joueur {
     //Perd 3 billes en plus si une partie est perdue ! (malus)
     public int getMarbles() {
 
-
         System.out.println("malus !!!!!! : ");
         return marbles -= malus;
     }
