@@ -33,10 +33,13 @@ public class GameStart {
 
             try {
                 System.out.println("""
+                        **************************
                         choisir la deficulté :
                         1. Facile : 4 niveaux
                         2. Difficile : 12 niveaux
-                        3. Impossible : 18 niveaux""");
+                        3. Impossible : 18 niveaux
+                        ***************************
+                        """);
 
                 System.out.print("taper la numero de defficulté :");
                 int n = scanner.nextInt();
@@ -103,10 +106,11 @@ public class GameStart {
                 System.out.println("""
                         *******************
                         Choisir  Hero :
-                        *******************
                         1.  Seong Gi-hun
                         2. Kang Sae-byeok
-                        3. Cho Sang-woo""");
+                        3. Cho Sang-woo
+                        *******************
+                        """);
 
                 System.out.print("taper la numero de Hero :");
                 int n = scanner.nextInt();
@@ -115,13 +119,13 @@ public class GameStart {
                     heroId = n;
                     switch (heroId) {
                         case 1:
-                            hero = joueur.joueurs[1];
+                            hero = joueur.joueurs[0];
                             break;
                         case 2:
-                            hero = joueur.joueurs[2];
+                            hero = joueur.joueurs[1];
                             break;
                         case 3:
-                            hero = joueur.joueurs[3];
+                            hero = joueur.joueurs[2];
                             break;
                     }
                 } else {
