@@ -39,10 +39,14 @@ public class GameFight {
                               
                                                     
                             votre animé est : ---->   """ + i++ + " ." + a.getName());
-
+                     //J'ai modifié cette ligne ci_dessous, Subhi, upperCass() pas besoin
+                    String n;
                     System.out.print("  Y pour pair , N pour impair :\n Taper (Y/N) pour valider --> ");
-
-                    String n = scanner.nextLine().toUpperCase();
+                    n = scanner.nextLine();
+                    while (!n.equals("Y") && !n.equals("N")) {
+                        System.out.println("Please enter Y (for Pair) or N(for Impair) for continuing the game !!!");
+                        n = scanner.nextLine();
+                    }
                     //******
 
                     if (n.equals("Y") || n.equals("N")) {
